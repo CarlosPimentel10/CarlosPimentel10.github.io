@@ -28,7 +28,7 @@
             <div id="overlay-1">
                 <header id="site-header" class="clearfix">
                     <div class="pull-left">
-                        <h1><a href="#">Carlos Pimentel</a></h1>
+                        <h1><a href="#"></a></h1>
                     </div>
                     <div class="pull-right">
                         <nav class="navbar site-nav" role="navigation">
