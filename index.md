@@ -31,7 +31,7 @@
                         <h1><a href="#"></a></h1>
                     </div>
                     <div class="pull-right">
-                        <nav class="navbar site-nav" role="navigation">
+                        <nav class="navbar site-nav fixed-top" role="navigation">
                             <!-- Brand and toggle get grouped for better mobile display -->
                             <div class="navbar-header">
                                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -52,7 +52,7 @@
                     </div>
                 </header>	<!-- site-header -->
                 
-                <div class="middle text-center clearfix">
+                <div class="middle text-center clearfix"> 
                     <div class="container">
                         <h1 class="pro-name">Python Web <!-- <span style="color: #71b644;" > -->Developer<!-- </span> --></h1>
                         <p class="tagline">Making your dreams real</p>
@@ -215,13 +215,13 @@
                                 <p>I also have a Certificate of Web Design from GetSmarter after a 100 hours course</p>
                                 <h3>Programming Languages</h3>
                                 <p>I have learnt and have a good understanding of:
-                                    <ul>
+                                    <ul class="list-unstyled">
                                         <li><h1 class="display-2">HTML5</h1></li>
                                         <li><h1 class="display-2">CSS3</h1></li>
                                         <li><h1 class="display-2">JavaScript</h1></li>
                                     </ul>
                                     <p>I have now fully changed my focus to:</p>
-                                    <ul>
+                                    <ul class="list-unstyled">
                                         <li><h1 class="display-2">Python</h1></li>
                                     </ul>
                                     <p>I have already done some projects of artificial intelligence <br> and I am working on some web projects with Flask and Django
