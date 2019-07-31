@@ -31,7 +31,7 @@
                         <h1><a href="#"></a></h1>
                     </div>
                     <div class="pull-right">
-                        <nav class="navbar navbar-expand-lg fixed-top">
+                        <nav class="navbar navbar-expand-lg">
                             <!-- Brand and toggle get grouped for better mobile display -->
                             <div class="navbar-header">
                                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
