@@ -1,8 +1,7 @@
-<!DOCTYPE html>
+
 <html lang="en-us">
     <head>
-    	<title>Carlos | skill</title>
-
+    	
     	<!-- meta -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
