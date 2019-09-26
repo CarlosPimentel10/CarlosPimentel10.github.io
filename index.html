@@ -10,6 +10,8 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!--My main style sheet-->
+    <link rel="stylesheet" type="text/css" href="/css/styles.css">
 </head>
 
 <body>
@@ -48,10 +50,10 @@
         </div>
     </nav>
     <section id="about">
-        <div class="container text-center mt-4">
+        <div class="container text-justify mt-4">
             <!--Picture-->
             <div class="container-fluid">
-                <img src="img/Foto_pass_edited.jpg" class="rounded-circle py-2 float-left" width="250"
+                <img src="img/Foto_pass_edited.jpg" class="rounded-circle py-2 float-left mr-3" width="250"
                     alt="Carlos Picture">
             </div>
             <h3>About Me</h3>
@@ -76,9 +78,40 @@
     <section id="projects">
         <div class="container text-center mt-4">
             <h3>My Projects</h3>
-            <h5>These are all the projects I have done so far</h5>
-
-        </div>
+            <h5>These are the projects I have done so far</h5>
+            <div class="container">
+                <div class="card-deck">
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-header">
+                            <h2>Machine Learning Project</h2>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Customer Segments</h5>
+                            <p class="card-text">UDACITY</p>
+                            <a href="#" class="btn btn-primary">Project-Url</a>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-header">
+                            <h2>Machine Learning Project</h2>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Finding Donors For Charity</h5>
+                            <p class="card-text">UDACITY</p>
+                            <a href="#" class="btn btn-primary">Project-Url</a>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-header">
+                            <h2>Youtube Tutorials</h2>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Programming Tutorials</h5>
+                            <p class="card-text">Youtube Personal Channel</p>
+                            <a href="#" class="btn btn-primary">Project-Url</a>
+                        </div>
+                    </div>
+                </div>
     </section>
 
     <!--Skills Section-->
@@ -92,80 +125,128 @@
     <section id="certificates">
         <div class="container text-center mt-4">
             <h3>My Certificates</h3>
-            <h5>These are all the Certificates I pursue</h5>
+            <h5>These are some of the Certificates I pursue</h5>
             <div class="container-fluid">
-                <div class="row">
-                    <div class="col">
-                        <div class="card" style="width: 16rem;">
-                            <img src="img/Certificates_Online/The Fundamentals of Digital Marketing.jpg"
-                                class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">The Fundamentals of Digital Marketing</h5>
-                                <p class="card-text">Google Digital Marketing - online certificate.</p>
-                                <a href="#" class="btn btn-primary">Certificate-Url</a>
-                            </div>
+                <div class="card-deck">
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/Certificates_Online/The Fundamentals of Digital Marketing.jpg"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">The Fundamentals of Digital Marketing</h5>
+                            <p class="card-text">Google Digital Marketing - online certificate.</p>
+                            <a href="#" class="btn btn-primary">Certificate-Url</a>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="card" style="width: 16rem;">
-                            <img src="img/Certificates_Online/Web_Design_Certfificate_GetSmarter 001.png" height="240"
-                                class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Web Design</h5>
-                                <p class="card-text">University of Cape Town - online certificate.</p>
-                                <a href="#" class="btn btn-primary">Certificate-Url</a>
-                            </div>
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/Certificates_Online/Web_Design_Certfificate_GetSmarter 001.png" height="240"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Web Design</h5>
+                            <p class="card-text">University of Cape Town - online certificate.</p>
+                            <a href="#" class="btn btn-primary">Certificate-Url</a>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="card" style="width: 16rem;">
-                            <img src="img/Certificates_Online/Java Tutorial for Complete Begginers.jpg"
-                                class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Java Tutorial for Complete Beginners</h5>
-                                <p class="card-text">UDEMY - online certificate.</p>
-                                <a href="#" class="btn btn-primary">Certificate-Url</a>
-                            </div>
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/Certificates_Online/Java Tutorial for Complete Begginers.jpg" class="card-img-top"
+                            alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Java Tutorial for Complete Beginners</h5>
+                            <p class="card-text">UDEMY - online certificate.</p>
+                            <a href="#" class="btn btn-primary">Certificate-Url</a>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="card" style="width: 16rem;">
-                            <img src="img/Certificates_Online/Practice-Java-By-Building-Projects.jpg"
-                                class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Practice Java By building Projects</h5>
-                                <p class="card-text">UDEMY - online certificate.</p>
-                                <a href="#" class="btn btn-primary">Certificate-Url</a>
-                            </div>
+                    <div class="card" style="width: 18rem;">
+                        <img src="img/Certificates_Online/Practice-Java-By-Building-Projects.jpg" class="card-img-top"
+                            alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Practice Java By building Projects</h5>
+                            <p class="card-text">UDEMY - online certificate.</p>
+                            <a href="#" class="btn btn-primary">Certificate-Url</a>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="card" style="width: 16rem;">
-                            <img src="img/Certificates_Online/Java_Design-Patterns and Architecture.jpg"
-                                class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Java Design Patterns and Architecture</h5>
-                                <p class="card-text">UDEMY - online certificate.</p>
-                                <a href="#" class="btn btn-primary">Certificate-Url</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card" style="width: 16rem;">
-                            <img src="img/Certificates_Online/Bootstrap_Course_UC-MSP33793.jpg" class="card-img-top"
-                                alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Bootstrap 4 - Quick Start</h5>
-                                <p class="card-text">UDEMY - online certificate.</p>
-                                <a href="#" class="btn btn-primary">Certificate-Url</a>
-                            </div>
-                        </div>
-                    </div>
-
                 </div>
             </div>
+        </div>
+        <br>
+        <div class="container">
+            <div class="card-deck">
+                <div class="card" style="width: 18rem;">
+                    <img src="img/Certificates_Online/introducao_programacao_com_python.png" class="card-img-top"
+                        alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Introduction to Python Programming</h5>
+                        <p class="card-text">Digital Innovation One - online certificate.</p>
+                        <a href="#" class="btn btn-primary">Certificate-Url</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="img/Certificates_Online/Java_Design-Patterns and Architecture.jpg" class="card-img-top"
+                        alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Java Design Patterns and Architecture</h5>
+                        <p class="card-text">UDEMY - online certificate.</p>
+                        <a href="#" class="btn btn-primary">Certificate-Url</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="img/Certificates_Online/Bootstrap_Course_UC-MSP33793.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Bootstrap 4 - Quick Start</h5>
+                        <p class="card-text">UDEMY - online certificate.</p>
+                        <a href="#" class="btn btn-primary">Certificate-Url</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="img/Certificates_Online/fundamentos_arquitetura_de_sistemas.png" class="card-img-top"
+                        alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Introduction to Systems Arquitecture</h5>
+                        <p class="card-text">Digital Innovation One - online certificate.</p>
+                        <a href="#" class="btn btn-primary">Certificate-Url</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="container">
+            <div class="card-deck">
+                <div class="card" style="width: 18rem;">
+                    <img src="img/Certificates_Online/master_the_basics_code_dynamic_websites_with_php_UC-QK0PSF0Z.jpg"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Practical - PHP</h5>
+                        <p class="card-text">UDEMY - online certificate.</p>
+                        <a href="#" class="btn btn-primary">Certificate-Url</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="img/Certificates_Online/bootstrap-4-build-3-projects-UC-3W1VYZT1.jpg" class="card-img-top"
+                        alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Bootstrap 4 - Build 3 Projects</h5>
+                        <p class="card-text">UDEMY - online certificate.</p>
+                        <a href="#" class="btn btn-primary">Certificate-Url</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        </div>
+        </div>
+        </div>
     </section>
 
+    <!--Footer Section-->
+    <footer class="bg-dark text-white mt-5 sticky-bottom mb-0">
+        <div class="container">
+            &copy; <p>Carlos Pimentel, 2019. All Rights Reserved. All the design and code on this webiste was performed
+                by
+                Carlos. If you want to make a website or other software project. Please go to the contact section to see
+                how you can
+                reach me.
+            </p>
+        </div>
+    </footer>
 
 
     <!-- Optional JavaScript -->
