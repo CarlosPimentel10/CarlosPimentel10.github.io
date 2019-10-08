@@ -1,7 +1,44 @@
-body {}
+@import url('https://fonts.googleapis.com/css?family=Audiowide|Roboto&display=swap');
 
-/*
-.card{
-    display:inline-block;
+body {
+	font-family: 'Roboto', sans-serif;
 }
-*/
+
+h3 {
+	font-family: 'Audiowide', cursive;
+
+}
+
+h5 {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1rem;
+}
+
+
+.card {
+	border-radius: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	transition: 0.3s;
+	width: 20%;
+	height: auto;
+}
+
+.card-text {
+	font-size: 0.8rem;
+}
+
+.card:hover {
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+footer {
+	background: #ededed;
+	color: #686868;
+	text-align: right;
+	display: block;
+	font-size: 0.7rem;
+}
+
+&copy {
+	text-align: justify;
+}
