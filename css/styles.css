@@ -36,15 +36,46 @@ h5 {
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
+.fa-html5 {
+	color: rgb(182, 18, 18);
+}
+
+.fa-css3 {
+	color: rgb(16, 148, 236);
+}
+
+.fa-python {
+	color: rgb(248, 183, 4);
+
+}
+
+.fa-js {
+	color: rgb(248, 183, 4);
+}
+
+.fa-bootstrap {
+	color: purple;
+}
+
 footer {
 	background-color: #ededed;
 	color: #686868;
-	margin: 0px auto;
-	text-align: right;
+	margin-top: 5%;
+	padding-top: 10px auto;
 	font-size: 0.7rem;
 
 }
 
-&copy {
+
+hr {
+	border-top: 5px dotted rgb(255, 255, 255);
+	width: 100%;
+	padding: 0px auto;
+	margin: 0.5rem;
+}
+
+
+/*&copy {
 	text-align: justify;
 }
+*/
