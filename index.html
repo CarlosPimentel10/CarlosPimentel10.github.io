@@ -10,24 +10,29 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!--Font awesome cdn-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
     <!--My main style sheet-->
     <link rel="stylesheet" type="text/css" href="/css/styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+    <script src="js/main_scripts.js"></script>
 </head>
 
 <body>
     <!--Navbar-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">CPimentel</a>
+
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-fixed-top">
+        <a class="navbar-brand" href="#"><img src="img/logo_cp.png" width="70"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
+            <ul class="navbar-nav nav mr-auto py-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#"><i class="fas fa-home">Home</i><span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#"><i class="fas fa-home">Home</i><span
+                            class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#about">About</a>
@@ -50,12 +55,13 @@
             </ul>
         </div>
     </nav>
+
     <section id="about">
         <div class="container text-justify mt-4">
             <!--Picture-->
             <div class="container-fluid">
-                <img src="img/edited_images/Foto_pass_edited.png" class="rounded-circle py-2 float-left mr-3"
-                    width="250" alt="Carlos Picture">
+                <img src="img/edited_images/Foto_pass_edited.png"
+                    class="rounded-circle img-fluid py-2 fromLeft float-left mr-3" width="250" alt="Carlos Picture">
             </div>
             <h3>About Me</h3>
             <h5>Let me introduce myself</h5>
@@ -68,9 +74,9 @@
                 more interest
                 on
                 creating websites and softwares. So I created a blog with blogspot technology and willing to do more
-                I learned how to code so I could create full websites from scratch. you can <a href="#certificates">See
-                    my
-                    certificates here</a>.
+                I learned how to code so I could create full websites from scratch. you can <a href="#certificates"
+                    class="btn btn-outline-primary">See
+                    my certificates here</a>.
             </p>
         </div>
     </section>
@@ -81,50 +87,60 @@
             <h3>My Projects</h3>
             <h5>These are the projects I have done so far</h5>
             <div class="container">
-                <div class="card-deck">
-                    <div class="card" style="width: 18rem;">
-                        <div class="card-header">
-                            <h2>Machine Learning Project</h2>
+                <div class="jumbotron">
+                    <div class="card-deck">
+                        <div class="card text-white bg-dark" style="width: 18rem;">
+                            <div class="card-header">
+                                <h2>Machine Learning Project</h2>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Customer Segments</h5>
+                                <p class="card-text">UDACITY</p>
+                                <a href="https://www.scribd.com/document/416190961/Machine-Learning-Customer-Segment-Project-Approved-by-UDACITY"
+                                    target="_blank" class="btn btn-primary">Project-Url</a>
+                            </div>
                         </div>
-                        <div class="card-body">
-                            <h5 class="card-title">Customer Segments</h5>
-                            <p class="card-text">UDACITY</p>
-                            <a href="https://www.scribd.com/document/416190961/Machine-Learning-Customer-Segment-Project-Approved-by-UDACITY" target="_blank" class="btn btn-primary">Project-Url</a>
+                        <div class="card text-white bg-dark" style="width: 18rem;">
+                            <div class="card-header">
+                                <h2>Machine Learning Project</h2>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Finding Donors For Charity</h5>
+                                <p class="card-text">UDACITY</p>
+                                <a href="https://www.scribd.com/document/415448797/Machine-Learning-Engineer-Nanodegree-Supervised-Learning-Project-Finding-Donors-for-CharityML"
+                                    target="_blank" class="btn btn-primary">Project-Url</a>
+                            </div>
                         </div>
+                        <div class="card text-white bg-dark" style="width: 18rem;">
+                            <div class="card-header">
+                                <h2>Youtube Tutorials</h2>
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title">Programming Tutorials</h5>
+                                <p class="card-text">Youtube Personal Channel</p>
+                                <a href="https://www.youtube.com/channel/UCVhtsAS04LeXCtGNFirawQg" target="_blank"
+                                    class="btn btn-primary mt-5">Project-Url</a>
+                            </div>
+                        </div>
+
+                        <!--<p class="lead">
+                        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+                    </p>-->
                     </div>
-                    <div class="card" style="width: 18rem;">
-                        <div class="card-header">
-                            <h2>Machine Learning Project</h2>
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title">Finding Donors For Charity</h5>
-                            <p class="card-text">UDACITY</p>
-                            <a href="https://www.scribd.com/document/415448797/Machine-Learning-Engineer-Nanodegree-Supervised-Learning-Project-Finding-Donors-for-CharityML" target="_blank" class="btn btn-primary">Project-Url</a>
-                        </div>
-                    </div>
-                    <div class="card" style="width: 18rem;">
-                        <div class="card-header">
-                            <h2>Youtube Tutorials</h2>
-                        </div>
-                        <div class="card-body">
-                            <h5 class="card-title">Programming Tutorials</h5>
-                            <p class="card-text">Youtube Personal Channel</p>
-                            <a href="https://www.youtube.com/channel/UCVhtsAS04LeXCtGNFirawQg" target="_blank" class="btn btn-primary mt-5">Project-Url</a>
-                        </div>
-                    </div>
+
                 </div>
     </section>
 
     <!--Skills Section-->
     <section id="skills">
-        <div class="container text-center mt-4">
+        <div class="container text-center mt-4 text-white">
             <h3>My Skills</h3>
             <h5>These are the skills I acquired through these years of work</h5>
             <h3><i class="fab fa-html5"></i> HTML5</h3>
             <p class="text-justify">I am a developer motivated to combine the art of design with the art of
                 programming.<br>
                 I can translate the UI/UX design wireframes to actual code
-                that produce visual elements of the application. <br>
+                that produce visual elements of the application.
                 I may work with the UI/UX designer and bridge the gap between graphical
                 design and technical implementation, taking an active role on both sides and <br>
                 defining how the application looks as well as how it works.</p>
@@ -151,20 +167,19 @@
             <p class="text-justify">I use the Python programming language to develop, implement, and debug a project.
                 I can create an application for you, design the framework for your code, build tools as necessary to get
                 the job done, create websites, or publish new services.
-                As Python developer I often work with data collection and analytics to create useful answers to questions
-                and provide insight where it's needed most.
-                
+                As Python developer I often work with data collection and analytics to create useful answers to
+                questions and provide insight where it's needed most.
+
             </p>
-            <p>Django Framework</p>
-            <ul class="text-justify">
-                Machine Learning Algorithms
-                <li>Naïve Bayes Classifier</li>
-                <li>K Means Clustering</li>
-                <li>Support Vector Machine</li>
-                <li>Linear Regression</li>
-                <li>Decision Tree</li>
-                <li>Adaboost Classifier</li>
-            </ul>
+
+
+            <h3><i class="fab fa-git-alt fa-2x"></i>Git</h3>
+            <p class="text-justify">I have been using git commands with git bash, for quite a while now.
+                I understand the importance of sharing and maintaining good Software Version Control.
+                I really love to work in a team with tech passionate people like myself.
+                If want to See my github page I have shared the link in the footer of this page.
+
+            </p>
 
 
     </section>
@@ -301,26 +316,37 @@
     <!--Services Section-->
     <section id="services">
         <div class="container text-center mt-4">
-            <h3>What I Can Do For You</h3>
-            <div class="list-group list-group-flush">
-                    <li class="list-group-item list-group-item-action active">
-                      Web Development Services I Perform
+            <h3>What Can I Do For You?</h3>
+            <div class="jumbotron">
+                <div class="list-group list-group-flush ">
+                    <li class="list-group-item list-group-item-action bg-primary text-light">
+                        Web Development Services I Perform
                     </li>
                     <li class="list-group-item list-group-item-action">WordPress CMS, Creation and Maintenance</li>
-                    <li class="list-group-item list-group-item-action">Website creation from scratch and maintenance</>
-                    <li class="list-group-item list-group-item-action">Database Design and Administration either: MySql, PostGreSql</li>
+                    <li class="list-group-item list-group-item-action">Website creation from scratch and maintenance
+                        with responsive techniques</>
+                    <li class="list-group-item list-group-item-action">Database Design and Administration either: MySql,
+                        PostGreSql</li>
                     <li class="list-group-item list-group-item-action">Custom Software Development</li>
                     <li class="list-group-item list-group-item-action">Software Engineering Advise</li>
-                  </div>
-                  </div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+
         </div>
     </section>
     <!--Contact Section-->
     <section id="contact">
         <div class="container text-center mt-4">
             <h3>Get In Touch</h3>
-            
-            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe-B0X4zhBB29CRnw1PsnEZAkC6DOcXxhegakMVz68pzHtwHA/viewform?embedded=true" width="640" height="957" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+
+            <iframe
+                src="https://docs.google.com/forms/d/e/1FAIpQLSe-B0X4zhBB29CRnw1PsnEZAkC6DOcXxhegakMVz68pzHtwHA/viewform?embedded=true"
+                width="640" height="957" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
             <!--
             <form action="" method="">
                 <div class="form-group">
@@ -339,21 +365,26 @@
     <footer class="container-fluid">
         <div class="navbar navbar-fixed-bottom">
             <!-- <div class="container"> -->
-         <p class="text-center">If you want to have a website or other software project. <br> Please go to the <a
-                        href="#contact">contact</a> section to reach me.
-                        <!--facebook icon-->
-                        <a href="https://www.facebook.com/carlos.scientist" target="_blank"><i class="fab fa-facebook-f fa-2x "></i></a>
-                        <!--Linkedin icon-->
-                        <a href="https://www.linkedin.com/in/carlos-pimentel-5a3aa841/" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
 
-                        <hr>
-           &copy; Carlos Pimentel, 2019. All Rights Reserved.  All the design and code
-                    of this webiste was performed by Carlos.
-                </p>
-                
+            <p class="text-justify">If you need to have a website or have other software project in mind. <br> Please go
+                to the <a href="#contact">contact</a> section to reach me. Or go to my social media profiles
+                <i class="fas fa-hand-point-right fa-2x" aria-hidden="true"></i></i>
+                <!--facebook icon-->
+                <a href="https://www.facebook.com/carlos.scientist" target="_blank"><i
+                        class="fab fa-facebook-f fa-2x "></i></a>
+                <!--Linkedin icon-->
+                <a href="https://www.linkedin.com/in/carlos-pimentel-5a3aa841/" target="_blank"><i
+                        class="fab fa-linkedin fa-2x"></i></a>
+                <!--Git icon-->
+                <a href="https://github.com/CarlosPimentel10" target="_blank"><i class="fab fa-github fa-2x"></i></a>
+                <hr>
+                &copy; Carlos Pimentel, 2019. All Rights Reserved. All the design and code
+                of this webiste was performed by Carlos.
+            </p>
+
         </div>
         </div>
-        
+
     </footer>
     </section>
 
