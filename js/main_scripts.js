@@ -11,3 +11,7 @@ function scrollFunction() {
 		document.getElementById('navbar').style.top = '-50px';
 	}
 }
+// Auto hide navbar menu links after click
+$('.navbar-nav>li>a').on('click', function() {
+	$('.navbar-collapse').collapse('hide');
+});
