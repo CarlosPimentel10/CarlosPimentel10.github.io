@@ -87,13 +87,13 @@ section {
 }
 
 #skills {
+	margin: 2%;
+	border-radius: 8px;
 	background: #141e30;
 	/* fallback for old browsers */
 	background: -webkit-linear-gradient(to right, #243b55, #141e30);
 	/* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to right,
-			#243b55,
-			#141e30);
+	background: linear-gradient(to right, #243b55, #141e30);
 	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
@@ -192,16 +192,26 @@ hr {
 		margin: 7.5px -15px;
 	}
 
-	.navbar-nav>li {
+	.navbar-nav > li {
 		float: none;
 	}
 
-	.navbar-nav>li>a {
+	.navbar-nav > li > a {
 		padding-top: 10px;
 		padding-bottom: 10px;
 	}
+	.card-deck {
+		display: flex;
+		flex-wrap: wrap;
+		/* width: max-content;
+		height: auto;
+		*/
+		justify-content: space-between;
+	}
+	.card {
+		flex: 0 1 calc(25% - 1em);
+	}
 }
-
 
 /*&copy {
 	text-align: justify;
