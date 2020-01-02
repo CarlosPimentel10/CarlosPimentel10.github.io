@@ -1,2 +1,0 @@
-# CarlosPimentel
-Personal Portfolio

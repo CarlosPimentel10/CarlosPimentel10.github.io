@@ -1,418 +1,304 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <title>Carlos | Portfolio</title>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <!--Font awesome cdn-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
-        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
-    <!--My main style sheet-->
-    <link rel="stylesheet" type="text/css" href="/css/styles.css">
-    <script src="js/main_scripts.js"></script>
+    <title>Carlos Pimentel</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://kit.fontawesome.com/0f78bf12da.js" crossorigin="anonymous"></script>
+    <link href="style.css" rel="stylesheet">
 </head>
 
 <body>
-    <!--Navbar-->
 
-    <nav id="navbar" class="navbar navbar-dark navbar-expand-lg navbar-fixed-top">
-        <a class="navbar-brand" href="#"><img src="img/logo_cp.png" width="70"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav nav mr-auto py-auto" data-toggle="collapse" data-target=".navbar-collapse.show">
-                <li class="nav-item active">
-                    <a class="nav-link" data-target=".navbar-collapse.show" href="#"><i
-                            class="fas fa-home">Home</i><span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#about" data-target=".navbar-collapse.show">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#projects" data-target=".navbar-collapse.show">Projects</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#skills" data-target=".navbar-collapse.show">My
-                        Skills</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#certificates" data-target=".navbar-collapse.show">Certificates</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#services" data-target=".navbar-collapse.show">Services</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#contact" data-target=".navbar-collapse.show">Contact</a>
-                </li>
-            </ul>
+    <header>
+        <div class="menu-toggler">
+            <div class="bar half start"></div>
+            <div class="bar"></div>
+            <div class="bar half end"></div>
         </div>
-    </nav>
-    <!--About section-->
-    <section id="about">
-        <div class="container text-justify mt-4 mx-auto">
-            <!--Picture-->
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-sm-6 col-md-10 col-lg-12">
-                        <img src="img/personal_pic.png" height="50" width="150"
-                            class="rounded-circle img-fluid py-2 fromLeft float-left mr-3" width="250"
-                            alt="Carlos Picture">
-                    </div>
-                    <h3>About Me</h3><br>
+        <nav class="top-nav">
+            <ul class="nav-list">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#certificates" class="nav-link">Certificates</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="landing-text">
+            <h1>Carlos Pimentel</h1>
+            <h6>Web Developer</h6>
+        </div>
+    </header>
 
-                    <p>I'm Carlos Pimentel
-                        I am a Web developer. I started working with technologies back in 2006.
-                        I was Software Support Engineer and Database Administrator for an Oil and Gas Company, untill
-                        2009.
-                        I graduated as Engineer <i>Geologist</i> in 2017.
-                        Meanwhile,
-                        in 2013 I started to get more and
-                        more interest
-                        on
-                        creating websites and softwares. So I created a blog with blogspot technology and willing to do
-                        more
-                        I learned how to code so I could create full websites from scratch. you can <a
-                            href="#certificates" class="btn btn-outline-primary">See
-                            my certificates here</a>.
+    <section class="about" id="about">
+        <div class="container">
+            <div class="profile-img" data-aos="fade-right" data-aos-delay="300">
+                <img src="img/personal_pic1.png" alt="personal picture">
+            </div>
+            <div class="about-details" data-aos="fade-left" data-aos-delay="600">
+                <div class="about-heading">
+                    <h1>About</h1>
+                    <h6>Myself</h6>
+                    <p>I'm Carlos Pimentel. I started working with technologies back in 2006. I was
+                        Software Support Engineer and Database Administrator for an Oil and Gas Company, untill 2009.
+                        I graduated as Engineer Geologist in 2017. Meanwhile, in 2013 I started to get more and more
+                        interest on creating websites and softwares. So I created a blog with blogspot technology and
+                        willing to do more I learned how to code so I could create full websites from scratch.
+                    </p>
+                    <div class="social-media">
+                        <ul class="nav-list">
+                            <li>
+                                <a href="https://www.facebook.com/carlos.scientist" target="_blank" class="icon-link">
+                                    <i class="fab fa-facebook-square"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.linkedin.com/in/carlos-pimentel-5a3aa841/" target="_blank"
+                                    class="icon-link">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/CarlosPimentel10" target="_blank" class="icon-link">
+                                    <i class="fab fa-github-square"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-heading">
+                <h1>Services</h1>
+                <h6>What I can do for you</h6>
+            </div>
+            <div class="my-skills">
+                <div class="skill" data-aos="fade-in" data-aos-delay="300">
+                    <div class="icon-container">
+                        <i class="fas fa-layer-group"></i>
+                    </div>
+                    <h1>Web Design</h1>
+                    <p>Mockup creation with graphic software</p>
+                    <p>UI Design</p>
+                </div>
+                <div class="skill" data-aos="fade-in" data-aos-delay="600">
+                    <div class="icon-container">
+                        <i class="fas fa-code" aria-hidden="true"></i>
+                    </div>
+                    <h1>Web Development</h1>
+                    <p>WordPress CMS, Creation and Maintenance</p>
+                    <p>Website creation from scratch and maintenance</p>
+                    <p>Database Design and Administration either: MySql, PostGreSql</p>
+                    <p>SEO and SEM</p>
+                    <p>Software Engineering Advise</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <div class="section-heading">
+                <h1>Portfolio</h1>
+                <h6>View Some of my completed projects</h6>
+            </div>
+            <div class="portfolio-item">
+                <div class="portfolio-img has-margin-right" data-aos="fade-right" data-aos-delay="300">
+                    <img src="images/portitem1.jpeg" alt="">
+                </div>
+                <div class="portfolio-description has-margin-right">
+                    <h6>Web Development</h6>
+                    <!-- <h1>Blog</h1>
+                    <p></p>
+                    <a href="#" class="cta">View Details</a>
+                    -->
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <div class="portfolio-description" data-aos="fade-left" data-aos-delay="600">
+                    <h6>Web Design</h6>
+                    <!-- <h1>Product Layout</h1>
+                    <p></p>
+                    <a href="#" class="cta">View Details</a>
+                    -->
+                </div>
+                <div class="portfolio-img" data-aos="fade-right" data-aos-delay="600">
+                    <img src="img/apple-device1.png" alt="">
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <div class="portfolio-description" data-aos="fade-right" data-aos-delay="900">
+                    <h6>Web Design</h6>
+                    <p>Let me take care of your company brand!</p>
+                    <!--
+                    <a href="#" class="cta">View Details</a>
+                    -->
+                </div>
+                <div class="portfolio-img has-margin-right" data-aos="fade-left" data-aos-delay="1200">
+                    <img src="img/monitor.png" alt="">
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="experience" id="experience">
+        <div class="container">
+            <div class="section-heading">
+                <h1>Work Experience</h1>
+                <h6>Past and Current Jobs</h6>
+            </div>
+            <div class="timeline" data-aos="fade-down" data-aos-delay="300">
+                <ul>
+                    <li class="date" data-date="2014">
+                        <p>Web Developer</p>
+                    </li>
+                </ul>
+                <div class="timeline">
+                    <ul>
+                        <li class="date" data-date="2012">
+                            <p>Software and Hardware Support Engineer</p>
+                        </li>
+                    </ul>
+                    <div class="timeline">
+                        <ul>
+                            <li class="date" data-date="2006">
+                                <p>Business Systems Champion for West and South Africa</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+    </section>
+
+    <section class="certificates" id="certificates">
+        <div class="container">
+            <div class="section-heading">
+                <h1>Certificates</h1>
+                <h6>View some of my Certificates</h6>
+            </div>
+            <div class="card">
+                <img src="img/Certificates_Online/The Digital Garage Certification1.png"
+                    alt="digital garage certificate">
+                <div class="container">
+                    <h4><b>Digital Marketing</b></h4>
+                    <p>The Fundamentals of Digital Marketing
                     </p>
                 </div>
             </div>
-        </div>
-    </section>
-
-    <!--Projects Section-->
-    <section id="projects">
-        <div class="container text-center mt-4 mx-auto">
-
-            <h3>My Projects</h3>
-            <h5>These are the projects I have done so far</h5>
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-10 col-md-10 col-lg-10">
-                        <div class="jumbotron">
-                            <div class="card-deck">
-                                <div class="card text-white bg-dark" style="width: 18rem;">
-                                    <div class="card-header">
-                                        <h2>Machine Learning Project</h2>
-                                    </div>
-                                    <div class="card-body">
-                                        <h5 class="card-title">Customer Segments</h5>
-                                        <p class="card-text">UDACITY</p>
-                                        <a href="https://www.scribd.com/document/416190961/Machine-Learning-Customer-Segment-Project-Approved-by-UDACITY"
-                                            target="_blank" class="btn btn-primary">Project-Url</a>
-                                    </div>
-                                </div>
-                                <div class="card text-white bg-dark" style="width: 18rem;">
-                                    <div class="card-header">
-                                        <h2>Machine Learning Project</h2>
-                                    </div>
-                                    <div class="card-body">
-                                        <h5 class="card-title">Finding Donors For Charity</h5>
-                                        <p class="card-text">UDACITY</p>
-                                        <a href="https://www.scribd.com/document/415448797/Machine-Learning-Engineer-Nanodegree-Supervised-Learning-Project-Finding-Donors-for-CharityML"
-                                            target="_blank" class="btn btn-primary">Project-Url</a>
-                                    </div>
-                                </div>
-                                <div class="card text-white bg-dark" style="width: 18rem;">
-                                    <div class="card-header">
-                                        <h2>Youtube Tutorials</h2>
-                                    </div>
-                                    <div class="card-body">
-                                        <h5 class="card-title">Programming Tutorials</h5>
-                                        <p class="card-text">Youtube Personal Channel</p>
-                                        <a href="https://www.youtube.com/channel/UCVhtsAS04LeXCtGNFirawQg"
-                                            target="_blank" class="btn btn-primary mt-5">Project-Url</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!--<p class="lead">
-                        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-                    </p>-->
-                    </div>
-
-                </div>
-    </section>
-
-    <!--Skills Section-->
-    <section id="skills">
-        <div class="container text-center mt-4 text-white mx-auto">
-            <h3>My Skills</h3>
-            <h5>These are the skills I acquired through these years of work</h5>
-            <h3><i class="fab fa-html5"></i> HTML5</h3>
-            <p class="text-justify">I am a developer motivated to combine the art of design with the art of
-                programming.<br>
-                I can translate the UI/UX design wireframes to actual code
-                that produce visual elements of the application.
-                I may work with the UI/UX designer and bridge the gap between graphical
-                design and technical implementation, taking an active role on both sides and <br>
-                defining how the application looks as well as how it works.</p>
-
-            <h3><i class="fab fa-css3"></i>CSS3</h3>
-            <p>Grid System,
-                border,
-                background properties
-                Media queries (Responsive Design)
-                Flex
-            </p>
-            <h3><i class="fab fa-bootstrap"></i> Bootstrap 4</h3>
-            <p>I have a good understanding and have used bootstrap in several projects.</p>
-            <h3><i class="fab fa-js"></i> JavaScript</h3>
-            <p class="text-justify">I Create frontend animations using javascript.
-                Utilize MVC principals to ensure a clean architecture and a lean code base for maximum
-                Maintained close communication with UI/UX team to enhance product quality
-                Following Agile development strategy.</p>
-            <h3><i class="fab fa-wordpress"></i>Wordpress </h3>
-            <p>I have done several Projects with WordPress CMS, and I feel quite comfortable with it's built in widgets
-                specially with elementor.
-            </p>
-            <h3><i class="fab fa-python"></i> Python</h3>
-            <p class="text-justify">I use the Python programming language to develop, implement, and debug a project.
-                I can create an application for you, design the framework for your code, build tools as necessary to get
-                the job done, create websites, or publish new services.
-                As Python developer I often work with data collection and analytics to create useful answers to
-                questions and provide insight where it's needed most.
-
-            </p>
-
-
-            <h3><i class="fab fa-git-alt fa-2x"></i>Git</h3>
-            <p class="text-justify">I have been using git commands with git bash, for quite a while now.
-                I understand the importance of sharing and maintaining good Software Version Control.
-                I really love to work in a team with tech passionate people like myself.
-                If want to See my github page I have shared the link in the footer of this page.
-
-            </p>
-
-
-    </section>
-
-    <!--Certificates Section-->
-    <section id="certificates">
-        <div class="container text-center mt-4 mx-auto">
-            <h3>My Certificates</h3>
-            <h5>These are some of the Certificates I pursue</h5>
-            <div class="container-fluid">
-                <div class="card-deck">
-                    <div class="card" style="width: 18rem;">
-                        <img src="img/Certificates_Online/The Digital Garage Certification.png" class="card-img-top"
-                            alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">The Fundamentals of Digital Marketing</h5>
-                            <p class="card-text">Google Digital Marketing - online certificate.</p>
-                            <!--<a href="#" class="btn btn-primary">Certificate-Url</a>-->
-                        </div>
-                    </div>
-                    <div class="card" style="width: 18rem;">
-                        <img src="img/Certificates_Online/Web_Design.png" height="240" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Web Design</h5>
-                            <p class="card-text">University of Cape Town - online certificate.</p>
-                            <!--<a href="#" class="btn btn-primary">Certificate-Url</a>-->
-                        </div>
-                    </div>
-                    <div class="card" style="width: 18rem;">
-                        <img src="img/Certificates_Online/Java Tutorial for Complete Begginers.png" class="card-img-top"
-                            alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Java Tutorial for Complete Beginners</h5>
-                            <p class="card-text">UDEMY - online certificate.</p>
-                            <a href="https://www.udemy.com/certificate/UC-4LVTAQYR/" target="_blank"
-                                class="btn btn-primary">Certificate-Url</a>
-                        </div>
-                    </div>
-                    <div class="card" style="width: 18rem;">
-                        <img src="img/Certificates_Online/Practice-Java-By-Building-Projects.png" class="card-img-top"
-                            alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Practice Java By building Projects</h5>
-                            <p class="card-text">UDEMY - online certificate.</p>
-                            <a href="https://www.udemy.com/certificate/UC-152VK0JH/" target="_blank"
-                                class="btn btn-primary">Certificate-Url</a>
-                        </div>
-                    </div>
+            <div class="card">
+                <img src="img/Certificates_Online/Web_Design1.png" alt="digital garage certificate">
+                <div class="container">
+                    <h4><b>Web Design</b></h4>
+                    <p>University of Cape Town</p>
                 </div>
             </div>
+
+            <div class="card">
+                <img src="img/Certificates_Online/Java Tutorial for Complete Begginers1.png"
+                    alt="udemy java certificate">
+                <div class="container">
+                    <h4><b>Java Tutorial for Complete Beginners</b></h4>
+                    <p>UDEMY - online certificate
+                    </p>
+                    <a href="https://www.udemy.com/certificate/UC-4LVTAQYR/" target="_blank"
+                        class="clickable">certificate url</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="img/Certificates_Online/intro_python1.png" alt="python certificate">
+                <div class="container">
+                    <h4><b>Python programming</b></h4>
+                    <p>Introduction to Python
+                    </p>
+                    <a href="https://certificates.digitalinnovation.one/089DA5B5?utm_campaign=website&utm_source=sendgrid&utm_medium=organic"
+                        target="_blank" class="clickable">certificate
+                        url</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="img/Certificates_Online/bootstrap-4-build-3-projects1.png" alt="bootstrap certificate">
+                <div class="container">
+                    <h4><b>Bootstrap4</b></h4>
+                    <p>Bootstrap 4 - Build 3 Projects
+                    </p>
+                    <a href="https://www.udemy.com/certificate/UC-3W1VYZT1/?utm_campaign=email&utm_source=sendgrid.com&utm_medium=email"
+                        target="_blank" class="clickable">Certificate-url</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img src="img/Certificates_Online/Practice-Java-By-Building-Projects1.png"
+                    alt="Java projects certificate">
+                <div class="container">
+                    <h4><b>Java</b></h4>
+                    <p>Java By Building Projects
+                    </p>
+                    <a href="https://www.udemy.com/certificate/UC-152VK0JH/" target="_blank"
+                        class="clickable">certificate url</a>
+                </div>
+            </div>
+
+
+
+
         </div>
-        <br>
+    </section>
+
+    <section class="contact" id="contact">
         <div class="container">
-            <div class="card-deck">
-                <div class="card" style="width: 18rem;">
-                    <img src="img/Certificates_Online/intro_python.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Introduction to Python Programming</h5>
-                        <p class="card-text">Digital Innovation One - online certificate.</p>
-                        <a href="https://certificates.digitalinnovation.one/089DA5B5?utm_campaign=website&utm_source=sendgrid&utm_medium=organic"
-                            target="_blank" class="btn btn-primary">Certificate-Url</a>
-                    </div>
-                </div>
-                <div class="card" style="width: 18rem;">
-                    <img src="img/Certificates_Online/Java_Design-Patterns and Architecture.png" class="card-img-top"
-                        alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Java Design Patterns and Architecture</h5>
-                        <p class="card-text">UDEMY - online certificate.</p>
-                        <a href="https://www.udemy.com/certificate/UC-K87YGQPB/?utm_campaign=email&utm_source=sendgrid.com&utm_medium=email"
-                            target="_blank" class="btn btn-primary">Certificate-Url</a>
-                    </div>
-                </div>
-                <div class="card" style="width: 18rem;">
-                    <img src="img/Certificates_Online/bootstrap4_quick_start.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Bootstrap 4 - Quick Start</h5>
-                        <p class="card-text">UDEMY - online certificate.</p>
-                        <a href="https://www.udemy.com/certificate/UC-MSP33793/?utm_campaign=email&utm_source=sendgrid.com&utm_medium=email"
-                            target="_blank" class="btn btn-primary">Certificate-Url</a>
-                    </div>
-                </div>
-                <div class="card" style="width: 18rem;">
-                    <img src="img/Certificates_Online/fundamentos_arquitetura_de_sistemas.png" class="card-img-top"
-                        alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Introduction to Systems Arquitecture</h5>
-                        <p class="card-text">Digital Innovation One - online certificate.</p>
-                        <a href="https://certificates.digitalinnovation.one/5A6BA36F?utm_campaign=website&utm_source=sendgrid&utm_medium=organic"
-                            target="_blank" class="btn btn-primary">Certificate-Url</a>
-                    </div>
-                </div>
+            <div class="section-heading">
+                <h1>Contact</h1>
+                <h6>Let's Work Together</h6>
             </div>
-        </div>
-        <br>
-        <div class="container">
-            <div class="card-deck">
-                <div class="card" style="width: 18rem;">
-                    <img src="img/Certificates_Online/master_the_basics_code_dynamic_websites_with_php.png"
-                        class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Practical - PHP</h5>
-                        <p class="card-text">UDEMY - online certificate.</p>
-                        <a href="https://www.udemy.com/certificate/UC-QK0PSF0Z/?utm_campaign=email&utm_source=sendgrid.com&utm_medium=email"
-                            target="_blank" class="btn btn-primary">Certificate-Url</a>
-                    </div>
-                </div>
-                <div class="card" style="width: 18rem;">
-                    <img src="img/Certificates_Online/bootstrap-4-build-3-projects.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Bootstrap 4 - Build 3 Projects</h5>
-                        <p class="card-text">UDEMY - online certificate.</p>
-                        <a href="https://www.udemy.com/certificate/UC-3W1VYZT1/?utm_campaign=email&utm_source=sendgrid.com&utm_medium=email"
-                            target="_blank" class="btn btn-primary">Certificate-Url</a>
-                    </div>
-                </div>
-                <div class="card" style="width: 18rem;">
-                    <img src="img/Certificates_Online/python_e_django.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Internet and Database Development With Python and Django</h5>
-                        <p class="card-text">Digital Innovation One - online certificate.</p>
-                        <a href="https://certificates.digitalinnovation.one/E9465D49?utm_campaign=website&utm_source=sendgrid&utm_medium=organic"
-                            target="_blank" class="btn btn-primary">Certificate-Url</a>
-                    </div>
-                </div>
-                <div class="card" style="width: 18rem;">
-                    <img src="img/Certificates_Online/arquitetura_sistemas_avançado.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Advanced Systems Arquitecture</h5>
-                        <p class="card-text">Digital Innovation One - online certificate.</p>
-                        <a href="https://certificates.digitalinnovation.one/EE36EC61?utm_campaign=website&utm_source=sendgrid&utm_medium=organic"
-                            target="_blank" class="btn btn-primary">Certificate-Url</a>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-        </div>
-        </div>
+            <form action="mail_handler.php" method="post" name="form" data-aos="fade-up" data-aos-delay="300">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name...">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email...">
+                <label for="services">Services:</label>
+                <select name="services" id="services">
+                    <option value="Web Design">Web Design</option>
+                    <option value="Web Development">Web Development</option>
+                    <option value="Web Design/Development">Web Design / Web Development</option>
+                </select>
+                <label for="subject">Subject:</label>
+                <textarea name="subject" id="subject" cols="10" rows="10"></textarea>
+                <input type="submit" value="submit">
+            </form>
         </div>
     </section>
 
-    <!--Services Section-->
-    <section id="services">
-        <div class="container text-center mt-4">
-            <h3>What Can I Do For You?</h3>
-            <div class="jumbotron">
-                <div class="list-group list-group-flush ">
-                    <li class="list-group-item list-group-item-action bg-primary text-light">
-                        Web Development Services I Perform
-                    </li>
-                    <li class="list-group-item list-group-item-action">WordPress CMS, Creation and Maintenance</li>
-                    <li class="list-group-item list-group-item-action">Website creation from scratch and maintenance
-                        with responsive techniques</>
-                    <li class="list-group-item list-group-item-action">Database Design and Administration either: MySql,
-                        PostGreSql</li>
-                    <li class="list-group-item list-group-item-action">Custom Software Development</li>
-                    <li class="list-group-item list-group-item-action">Software Engineering Advise</li>
-                </div>
-            </div>
-
+    <footer class="copyright">
+        <div class="up" id="up">
+            <a href="#"><i class="fas fa-angle-double-up"></i></a>
         </div>
-
-
-
-
-        </div>
-    </section>
-    <!--Contact Section-->
-    <section id="contact">
-        <div class="container text-center mt-4">
-            <h3>Get In Touch</h3>
-
-            <iframe
-                src="https://docs.google.com/forms/d/e/1FAIpQLSe-B0X4zhBB29CRnw1PsnEZAkC6DOcXxhegakMVz68pzHtwHA/viewform?embedded=true"
-                width="640" height="957" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-
-
-        </div>
-    </section>
-
-    <!--Footer Section-->
-    <footer class="container-fluid">
-        <div class="navbar navbar-fixed-bottom">
-            <!-- <div class="container"> -->
-
-            <p class="text-justify">If you need to have a website or have other software project in mind. <br> Please go
-                to the <a href="#contact">contact</a> section to reach me. Or go to my social media profiles
-                <i class="fas fa-hand-point-right fa-2x" aria-hidden="true"></i></i>
-                <!--facebook icon-->
-                <a href="https://www.facebook.com/carlos.scientist" target="_blank"><i
-                        class="fab fa-facebook-f fa-2x "></i></a>
-                <!--Linkedin icon-->
-                <a href="https://www.linkedin.com/in/carlos-pimentel-5a3aa841/" target="_blank"><i
-                        class="fab fa-linkedin fa-2x"></i></a>
-                <!--Git icon-->
-                <a href="https://github.com/CarlosPimentel10" target="_blank"><i class="fab fa-github fa-2x"></i></a>
-                <hr>
-                &copy; Carlos Pimentel, 2019. All Rights Reserved. All the design and code
-                of this webiste was performed by Carlos.
-            </p>
-
-        </div>
-        </div>
-
+        <p>&copy; Carlos Pimentel 2020.</p>
     </footer>
-    </section>
 
 
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-        </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
-        </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
-        </script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+    <script src="main.js"></script>
 
 
 </body>
