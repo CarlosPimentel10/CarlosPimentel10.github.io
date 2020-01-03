@@ -1,9 +1,10 @@
 $(document).ready(function() {
-	$('.menu-toggler').on('click', function() {
+	$('.menu-toggler').on('click', function(event) {
 		$(this).toggleClass('open');
 		$('.top-nav').toggleClass('open');
-		$('.top-nav').toggleClass('close');
+		// $('.top-nav').toggleClass('close');
 	});
+
 	$('.top-nav .nav-link').on('click', function() {
 		$('.menu-toggler').removeClass('open');
 		$('.top-nav').removeClass('open');

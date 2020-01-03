@@ -106,7 +106,7 @@ header {
 .top-nav {
     width: 100%;
     height: 100vh;
-    position: fixed;
+    position: relative;
     top: -100vh;
     z-index: 50;
     background-color: #16162d;
@@ -131,7 +131,8 @@ li {
 .nav-link {
     font-family: 'Audiowide', cursive;
     font-size: 2.5rem;
-    padding: 1rem;
+    padding: 2px;
+    margin: 0 auto;
 }
 
 .nav-link:hover,
@@ -562,10 +563,11 @@ input[type="submit"]:hover {
         margin: 2rem 0;
     }
 
+    /*
     .nav-link {
-        font-size: 4.5rem;
+        font-size: 3.5rem;
     }
-
+    */
     .about-heading h1 {
         font-size: 3.5rem;
     }
@@ -610,11 +612,6 @@ input[type="submit"]:hover {
         right: 2rem;
     }
 
-    /*.contact {
-        display: none;
-    }
-    */
-
     .landing-text h1 {
         font-size: 8rem;
     }
@@ -623,9 +620,11 @@ input[type="submit"]:hover {
         font-size: 1.4rem;
     }
 
+    /*
     .nav-link {
-        font-size: 3.5rem;
+        font-size: 8rem;
     }
+    */
 
     .about .container {
         flex-direction: column;
@@ -666,9 +665,12 @@ input[type="submit"]:hover {
         margin: 0 auto;
     }
 
-    form {
+    /* .freebirdFormviewerViewFormContentWrapper {
         width: 100%;
+        margin-left: 40%;
+        margin-right: 0%;
     }
+    */
 
     .up {
         right: 2rem;
