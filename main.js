@@ -1,8 +1,7 @@
-$(document).ready(function() {
+$(document).ready(function(e) {
 	$('.menu-toggler').on('click', function(event) {
 		$(this).toggleClass('open');
 		$('.top-nav').toggleClass('open');
-		// $('.top-nav').toggleClass('close');
 	});
 
 	$('.top-nav .nav-link').on('click', function() {
